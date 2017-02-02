@@ -1,0 +1,32 @@
+AddDefaultCharset UTF-8
+Options -DirList
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+
+ExpiresActive On
+ExpiresDefault "access plus 1 seconds"
+ExpiresByType text/html "access plus 1 seconds"
+ExpiresByType image/x-icon "access plus 86400 seconds"
+ExpiresByType image/gif "access plus 86400 seconds"
+ExpiresByType image/jpeg "access plus 86400 seconds"
+ExpiresByType image/png "access plus 86400 seconds"
+ExpiresByType text/css "access plus 86400 seconds"
+ExpiresByType text/javascript "access plus 86400 seconds"
+ExpiresByType application/x-javascript "access plus 86400 seconds"
+
+
+<FilesMatch "\.(gif|jpe?g|png|ico|css|js|swf)$">
+     Header set Cache-Control "max-86400 public, must-revalidate"
+
+</FilesMatch>
+</IfModule>
+## EXPIRES CACHING ##
+
+## GZip
+FilesMatch "(\.js\.gz|\.css\.gz)$">
+Header append Vary Accept-Encoding
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^na4lapy.org$ [NC]
+RewriteRule ^(.*)$ http://www.na4lapy.org/$1 [R=301,nc]
