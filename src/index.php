@@ -20,7 +20,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="description" content="Na4Łapy to aplikacja pozwalająca przeglądać zdjęcia i opisy zwierząt znajdujących się pod opieką gdańskiego schroniska Promyk. Użytkownik może w prosty sposób dodawać psy i koty do listy ulubionych oraz przekazywać datki na zwierzęta w formie elektronicznych mikropłatności."/>
+<meta name="description" content="Na4Łapy to aplikacja pozwalająca przeglądać zdjęcia i opisy zwierząt znajdujących się w schroniskach. Użytkownik może w prosty sposób dodawać psy i koty do listy ulubionych oraz przekazywać datki na zwierzęta w formie elektronicznych mikropłatności."/>
 <meta name="keywords" content="na4lapy na4łapy na 4 lapy łapy schronisko adopcja zwierzęta pomoc aplikacja sklep play android ios mobile tinder" >
 <meta name="robots" content="index,nofollow">
 <meta name="revisit-after" content="1 days">
@@ -31,7 +31,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="453">
 <meta property="og:image:height" content="519">
-<meta property="og:description" content=""Na4Łapy" to aplikacja pozwalająca przeglądać zdjęcia i opisy zwierząt znajdujących się pod opieką gdańskiego schroniska Promyk. Użytkownik może w prosty sposób dodawać psy i koty do listy ulubionych oraz przekazywać datki na zwierzęta w formie elektronicznych mikropłatności." />
+<meta property="og:description" content=""Na4Łapy" to aplikacja pozwalająca przeglądać zdjęcia i opisy zwierząt znajdujących się w schroniskach. Użytkownik może w prosty sposób dodawać psy i koty do listy ulubionych oraz przekazywać datki na zwierzęta w formie elektronicznych mikropłatności." />
 <meta property="og:url"content="http://www.na4lapy.org/" />
 <meta property="og:title" content="Na 4 Łapy - Aplikacja " />
 
@@ -114,9 +114,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="banner-info">
       <div class="col-md-6 banner-text wow fadeInRight auto-width" data-wow-delay="0.5s">
         <h1>Aplikacja mobilna Na4Łapy</h1>
-        <p>"Na4Łapy" to aplikacja pozwalająca przeglądać zdjęcia i opisy zwierząt znajdujących się pod opieką
-          gdańskiego
-          schroniska Promyk. Użytkownik może w prosty sposób dodawać psy i koty do listy ulubionych oraz
+        <p>"Na4Łapy" to aplikacja pozwalająca przeglądać zdjęcia i opisy zwierząt znajdujących się w schroniskach. Użytkownik może w prosty sposób dodawać psy i koty do listy ulubionych oraz
           przekazywać datki na zwierzęta w formie elektronicznych mikropłatności.</p>
         <!--<a class="download"
                    href="https://play.google.com/store/apps/details?id=pl.kodujdlapolski.na4lapy">POBIERZ
@@ -167,7 +165,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="col-md-9">
           <h2>Aplikacja</h2>
         <p style="margin-top:0;">Jesteśmy na etapie rozwijania nowych funkcjonalności w aplikacji na system Android oraz iOS.
-Otwarty kod źródłowy znajdzie się na GitHubie po refaktoryzacji do końca 2016 roku.</p></div></div>
+Otwarty kod źródłowy znajdzie się na GitHubie:
+		<a href="https://github.com/na4lapy">https://github.com/na4lapy</a>
+		</p></div></div>
         <div class="row about-list wow fadeInRight" data-wow-delay="0.5s"><div class="col-md-3"><img src="images/set.png" width="90" height="90" alt="" class="img-responsive" style="padding-top:2em;"/></div>
         <div class="col-md-9">
           <h2>Schroniska</h2>
@@ -392,14 +392,20 @@ Otwarty kod źródłowy znajdzie się na GitHubie po refaktoryzacji do końca 20
       <div class="col-md-4 contact-grid text-center wow bounceIn" data-wow-delay="0.4s">
         <div class="icon2"></div>
         <p>Miejsce spotkań</p>
-        <p>Gdański Inkubator Przedsiębiorczości STARTER</p>
-        <p>ul. Lęborska 3B</p>
+        <p>Olivia Business Center - O4</p>
+        <p>aleja Grunwaldzka 472A</p>
       </div>
       <div class="col-md-4 contact-grid text-center wow bounceIn" data-wow-delay="0.4s">
         <div class="icon3"></div>
-        <script type="text/javascript"> 
-    gen_mail_to_link('kontakt','na4lapy.org','Odnośnie aplikacji na4łapy...');
-</script> 
+        <p>Biuro: 
+		<script type="text/javascript"> 
+    			gen_mail_to_link('kontakt','na4lapy.org','Odnośnie aplikacji na4łapy...');
+		</script>
+	</p>
+	<p>Pomoc techniczna: 
+		<script type="text/javascript">     
+    			gen_mail_to_link('pomoc','na4lapy.org','Odnośnie aplikacji na4łapy...');     
+	 	</script> </p>
       </div>
       <!-- <div class="clearfix"></div>--> 
     </div>
